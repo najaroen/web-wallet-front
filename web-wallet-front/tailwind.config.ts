@@ -10,7 +10,8 @@ const config: Config = {
     borderRadius: {
       max: '160px',
       rd32: '32px',
-      rd20: '20px'
+      rd20: '20px',
+      circle: '300px'
     },
     extend: {
       colors: {
@@ -20,7 +21,8 @@ const config: Config = {
         whitebg: '#fffff',
         primaryblue: '#3833ff',
         creambg: '#f9f8f5',
-        graytxt: '#808080'
+        graytxt: '#808080',
+        redbg: "#ef4444"
       },
     },
   },

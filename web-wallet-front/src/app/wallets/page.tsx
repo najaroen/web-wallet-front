@@ -3,6 +3,7 @@ import avatar from "../../public/assets/icons/avatar.svg";
 import copy from "../../public/assets/icons/copy.svg";
 import bell from "@/public/assets/icons/bell.svg";
 import logo from "@/public/assets/icons/logo.png";
+import jollibee from "@/public/assets/icons/Jollibee-Logo.wine.png";
 
 export default function Wallet() {
   const items = [1, 1, 2, 3, 4, 5, 6, 7];
@@ -79,7 +80,7 @@ export default function Wallet() {
           <p className="text-base font-medium text-graytxt">Micky Taylor</p>
         </div>
       </div>
-      <div className="absolute inset-x-0 min-w-max bottom-0  bg-white rounded-t-rd32 p-8 overflow-y-auto h-96">
+      <div className="absolute inset-x-0 min-w-max bottom-0  bg-white rounded-t-rd32 p-8 overflow-y-auto h-72">
         <div className="flex flex-row justify-between">
           <p className="text-base font-semibold text-lg">Items</p>
           <div>B</div>
@@ -92,23 +93,23 @@ export default function Wallet() {
             >
               <div className="flex flex-row gap-2">
                 <Image
-                  className="self-left"
-                  src={avatar}
-                  alt="Next.js logo"
+                  className="self-left rounded-circle border"
+                  src={jollibee}
+                  alt="jollibee"
                   width={50}
-                  height={50}
+                  height={60}
                   priority
                 />
                 <div className="flex flex-col my-1">
-                  <p className="text-base font-semibold text-lg leading-none">
-                    CARO
+                  <p className="text-base font-semibold text-md leading-none">
+                    JOLLE
                   </p>
                   <p className="">Jolly bee</p>
                 </div>
               </div>
               <div className="flex flex-col my-1">
-                <p className="text-base font-semibold text-lg leading-none">
-                  4 CARO
+                <p className="text-base font-semibold text-md leading-none">
+                  4 JOLLE
                 </p>
                 <p className="">~ 80 THB</p>
               </div>
