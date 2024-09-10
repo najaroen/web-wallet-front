@@ -88,7 +88,7 @@ export default function Wallet() {
           {items.map((value: number, index: number) => (
             <div
               className="flex flex-row justify-between"
-              key={`index-of-index`}
+              key={`index-of-${index}-${value}`}
             >
               <div className="flex flex-row gap-2">
                 <Image
