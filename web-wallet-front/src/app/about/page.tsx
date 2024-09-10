@@ -53,8 +53,7 @@ export default function About() {
           />
           <p className="font-medium text-xl text-gray-800 mt-2">Who we are</p>
           <p className="text-gray-400">
-            Our team of [mention your team's expertise or skills] is passionate
-            about [describe your company's services or products].
+          Craft your campaign in the digital world through blockchain Craft your campaign in the digital world through blockchain
           </p>
         </div>
         <div className="mt-10 flex justify-end">
@@ -70,8 +69,7 @@ export default function About() {
         <div>
           <p className="font-medium text-xl text-gray-800 mt-2">Why SASOM</p>
           <p className="text-gray-400">
-            Our team of [mention your team's expertise or skills] is passionate
-            about [describe your company's services or products].
+          products describe your company products describe your company products describe your company
           </p>
         </div>
       </div>
