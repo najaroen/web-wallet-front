@@ -14,7 +14,7 @@ export default function Redeeming() {
       </div>
       <div className="self-center">
         <div
-          className="w-72 h-64 bg-white rounded-rd16 content-center shadow-lg"
+          className="w-72 h-64 bg-white rounded-rd16 shadow-lg pt-20"
           style={{ borderRadius: "16px" }}
         >
           <Image
