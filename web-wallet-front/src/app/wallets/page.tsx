@@ -3,7 +3,7 @@ import avatar from "../../public/assets/icons/avatar.svg";
 import copy from "../../public/assets/icons/copy.svg";
 import bell from "@/public/assets/icons/bell.svg";
 import logo from "@/public/assets/icons/logo.png";
-import pointCard from "@/public/assets/images/point-card-no-bg.png";
+
 export default function Wallet() {
   return (
     <div
