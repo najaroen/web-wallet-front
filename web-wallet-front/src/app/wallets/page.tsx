@@ -2,7 +2,6 @@ import Image from "next/image";
 import avatar from "../../public/assets/icons/avatar.svg";
 import copy from "../../public/assets/icons/copy.svg";
 import bell from "@/public/assets/icons/bell.svg";
-import logo from "@/public/assets/icons/logo.png";
 import jollibee from "@/public/assets/icons/Jollibee-Logo.wine.png";
 
 export default function Wallet() {
@@ -66,7 +65,7 @@ export default function Wallet() {
             <Image
               className=""
               src={jollibee}
-              alt="Next.js logo"
+              alt="jollibee"
               width={130}
               height={60}
               priority
