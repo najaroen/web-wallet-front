@@ -65,7 +65,7 @@ export default function Wallet() {
           >
             <Image
               className=""
-              src={logo}
+              src={jollibee}
               alt="Next.js logo"
               width={130}
               height={60}
