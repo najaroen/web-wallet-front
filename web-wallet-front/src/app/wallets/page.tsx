@@ -5,14 +5,16 @@ import bell from "@/public/assets/icons/bell.svg";
 import logo from "@/public/assets/icons/logo.png";
 
 export default function Wallet() {
+  const items = [1, 1, 2, 3, 4, 5, 6, 7];
+
   return (
     <div
-      className="flex flex-col h-screen gap-10 p-8 sm:p-20 font-[family-name:var(--font-geist-sans)]"
+      className="flex flex-col h-screen gap-10 p-0 sm:p-20 font-[family-name:var(--font-geist-sans)]"
       style={{
         backgroundColor: "#e9e3e3",
       }}
     >
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between px-4 pt-4">
         <div className="flex flex-row gap-4">
           <div className="rounded-rd32 size-16 bg-primaryblue">
             <Image
@@ -53,10 +55,13 @@ export default function Wallet() {
           />
         </div>
       </div>
-      <div className="p-0 bg-white min-w-60 h-48 rounded-rd20 flex flex-col justify-between p-4">
+      <div className="mx-4 bg-white min-w-60 h-48 rounded-rd20 flex flex-col justify-between p-4">
         <div className="z-10 flex flex-row">
           <p className="text-base font-medium text-graytxt">Point Card</p>
-          <div className="self-center" style={{position: 'absolute', right:15, top:135}}>
+          <div
+            className="self-center"
+            style={{ position: "absolute", right: 15, top: 135 }}
+          >
             <Image
               className=""
               src={logo}
@@ -73,30 +78,43 @@ export default function Wallet() {
         <div className="z-10">
           <p className="text-base font-medium text-graytxt">Micky Taylor</p>
         </div>
-        {/* <Image
-          className=""
-          src={pointCard}
-          alt="notification"
-          width={402}
-          height={620}
-          priority
-        />
-         <Image
-          className=""
-          src={pointCard}
-          alt="notification"
-          width={402}
-          height={620}
-          priority
-        />
-         <Image
-          className=""
-          src={pointCard}
-          alt="notification"
-          width={402}
-          height={620}
-          priority
-        />  */}
+      </div>
+      <div className="absolute inset-x-0 min-w-max bottom-0  bg-white rounded-t-rd32 p-8 overflow-y-auto h-96">
+        <div className="flex flex-row justify-between">
+          <p className="text-base font-semibold text-lg">Items</p>
+          <div>B</div>
+        </div>
+        <div className="flex flex-col gap-4 mt-4">
+          {items.map((value: number, index: number) => (
+            <div
+              className="flex flex-row justify-between"
+              key={`index-of-index`}
+            >
+              <div className="flex flex-row gap-2">
+                <Image
+                  className="self-left"
+                  src={avatar}
+                  alt="Next.js logo"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <div className="flex flex-col my-1">
+                  <p className="text-base font-semibold text-lg leading-none">
+                    CARO
+                  </p>
+                  <p className="">Jolly bee</p>
+                </div>
+              </div>
+              <div className="flex flex-col my-1">
+                <p className="text-base font-semibold text-lg leading-none">
+                  4 CARO
+                </p>
+                <p className="">~ 80 THB</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
