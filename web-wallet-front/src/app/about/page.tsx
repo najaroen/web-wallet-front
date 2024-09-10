@@ -37,7 +37,7 @@ export default function About() {
         </p>
       </div>
       <div className="self-center">
-        <button className="rounded w-36 text-white p-2 text-base font-semibold text-center  bg-primaryblue">
+        <button className="rounded-md w-36 text-white p-2 text-base font-semibold text-center  bg-primaryblue">
           Contact us.
         </button>
       </div>
