@@ -101,15 +101,15 @@ export default function Wallet() {
                   priority
                 />
                 <div className="flex flex-col my-1">
-                  <p className="text-base font-semibold text-md leading-none">
-                    JOLLE
+                  <p className="text-base font-semibold text-sm leading-none">
+                    JOLLY
                   </p>
                   <p className="">Jolly bee</p>
                 </div>
               </div>
               <div className="flex flex-col my-1">
-                <p className="text-base font-semibold text-md leading-none">
-                  4 JOLLE
+                <p className="text-base font-semibold text-sm leading-none">
+                  4 JOLLY
                 </p>
                 <p className="">~ 80 THB</p>
               </div>
