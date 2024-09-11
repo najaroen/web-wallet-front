@@ -14,6 +14,9 @@ const config: Config = {
       circle: '300px'
     },
     extend: {
+      fontFamily: {
+        poppins: ['var(--font-poppinsmd)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

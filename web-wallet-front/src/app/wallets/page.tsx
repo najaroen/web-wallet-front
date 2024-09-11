@@ -27,7 +27,7 @@ export default function Wallet() {
             />
           </div>
           <div className="content-center text-wrap max-w-20">
-            <p className="truncate">
+            <p className="truncate font-[family-name:var(--font-poppinsmd)]">
               0x4F32a29b0BF9801b6BCb776a13196Ac1B083c7Bb
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function Wallet() {
       </div>
       <div className="mx-4 bg-white min-w-60 h-48 rounded-rd20 flex flex-col justify-between p-4">
         <div className="z-10 flex flex-row">
-          <p className="text-base font-medium text-graytxt">Point Card</p>
+          <p className="text-base font-medium text-graytxt font-[family-name:var(--font-poppinsmd)]">Point Card</p>
           <div
             className="self-center"
             style={{ position: "absolute", right: 15, top: 135 }}
@@ -73,15 +73,15 @@ export default function Wallet() {
           </div>
         </div>
         <div className="z-10">
-          <p className="font-normal text-3xl">1,200</p>
+          <p className="font-normal text-3xl font-[family-name:var(--font-poppinsmd)]">1,200</p>
         </div>
         <div className="z-10">
-          <p className="text-base font-medium text-graytxt">Micky Taylor</p>
+          <p className="text-base font-medium text-graytxt font-[family-name:var(--font-poppinsmd)]">Micky Taylor</p>
         </div>
       </div>
       <div className="absolute inset-x-0 min-w-max bottom-0  bg-white rounded-t-rd32 p-8 overflow-y-auto h-72">
         <div className="flex flex-row justify-between">
-          <p className="text-base font-semibold text-lg">Items</p>
+          <p className="text-base font-semibold text-lg font-[family-name:var(--font-poppinsmd)]">Items</p>
           <div>B</div>
         </div>
         <div className="flex flex-col gap-4 mt-4">
@@ -100,17 +100,17 @@ export default function Wallet() {
                   priority
                 />
                 <div className="flex flex-col my-1">
-                  <p className="text-base font-semibold text-sm leading-none">
+                  <p className="text-base font-semibold text-sm leading-none font-[family-name:var(--font-poppinsmd)]">
                     JOLLY
                   </p>
-                  <p className="">Jolly bee</p>
+                  <p className="font-[family-name:var(--font-poppinsmd)]">Jolly bee</p>
                 </div>
               </div>
               <div className="flex flex-col my-1">
-                <p className="text-base font-semibold text-sm leading-none">
+                <p className="text-base font-semibold text-sm leading-none font-[family-name:var(--font-poppinsmd)]">
                   4 JOLLY
                 </p>
-                <p className="">~ 80 THB</p>
+                <p className="font-[family-name:var(--font-poppinsmd)] text-graytxt text-sx">~ 80 THB</p>
               </div>
             </div>
           ))}

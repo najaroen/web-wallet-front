@@ -31,13 +31,13 @@ export default function About() {
         />
       </div>
       <div className="">
-        <p className="text-2xl font-semibold text-center">Here you SASOM</p>
-        <p className="text-base text-neutral-500 text-center">
+        <p className="text-2xl font-semibold text-center font-[family-name:var(--font-poppinsmd)]">Here you SASOM</p>
+        <p className="text-base text-neutral-500 text-center font-[family-name:var(--font-poppinsmd)]">
           Celo is scaling Ethereum with real-world solutions
         </p>
       </div>
       <div className="self-center">
-        <button className="rounded-md w-36 text-white p-2 text-base font-semibold text-center  bg-primaryblue">
+        <button style={{borderRadius: '16px'}} className="rounded-md w-36 text-white p-2 text-base font-semibold text-center  bg-primaryblue font-[family-name:var(--font-poppinsmd)]">
           Contact us.
         </button>
       </div>
@@ -51,8 +51,8 @@ export default function About() {
             height={100}
             priority
           />
-          <p className="font-medium text-xl text-gray-800 mt-2">Who we are</p>
-          <p className="text-gray-400">
+          <p className="font-medium text-xl text-gray-800 mt-2 font-[family-name:var(--font-poppinsmd)]">Who we are</p>
+          <p className="text-gray-400 font-[family-name:var(--font-poppinsmd)]">
           Craft your campaign in the digital world through blockchain Craft your campaign in the digital world through blockchain
           </p>
         </div>
@@ -67,15 +67,15 @@ export default function About() {
           />
         </div>
         <div>
-          <p className="font-medium text-xl text-gray-800 mt-2">Why SASOM</p>
-          <p className="text-gray-400">
+          <p className="font-medium text-xl text-gray-800 mt-2 font-[family-name:var(--font-poppinsmd)]">Why SASOM</p>
+          <p className="text-gray-400 font-[family-name:var(--font-poppinsmd)]">
           products describe your company products describe your company products describe your company
           </p>
         </div>
       </div>
       {/* SECTION 2 */}
       <div className="self-center">
-        <p className="text-gray-800 text-2xl font-semibold">How it works?</p>
+        <p className="text-gray-800 text-2xl font-semibold font-[family-name:var(--font-poppinsmd)]">How it works?</p>
       </div>
       <div className="flex flex-col">
         <div className="self-center">
@@ -88,7 +88,7 @@ export default function About() {
             priority
           />
         </div>
-        <p className="px-12 text-center text-gray-400 font-medium">
+        <p className="px-12 text-center text-gray-400 font-medium font-[family-name:var(--font-poppinsmd)]">
           Craft your campaign in the digital world through blockchain
         </p>
       </div>
@@ -103,7 +103,7 @@ export default function About() {
             priority
           />
         </div>
-        <p className="px-12 text-center text-gray-400 font-medium">
+        <p className="px-12 text-center text-gray-400 font-medium font-[family-name:var(--font-poppinsmd)]">
           Craft your campaign in the digital world through blockchain
         </p>
       </div>
@@ -118,7 +118,7 @@ export default function About() {
             priority
           />
         </div>
-        <p className="px-12 text-center text-gray-400 font-medium">
+        <p className="px-12 text-center text-gray-400 font-medium font-[family-name:var(--font-poppinsmd)]">
           Craft your campaign in the digital world through blockchain
         </p>
       </div>
@@ -135,7 +135,7 @@ export default function About() {
             />
           </div>
           <div>
-            <p className="text-gray-400 text-sm text-center text-white pl-4">
+            <p className="text-gray-400 text-sm text-center text-white pl-4 font-[family-name:var(--font-poppinsmd)]">
               Blockchain Points: A New Era of Loyalty Rewards Blockchain
               technology is disrupting the loyalty rewards industry. Blockchain
               points offer enhanced security, transparency, and
@@ -143,10 +143,10 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-row mt-8">
-              <p className="text-gray-300 font-medium">
+              <p className="text-gray-300 font-medium font-[family-name:var(--font-poppinsmd)]">
                 SASOM by 
               </p>
-              <p className="text-gray-300 font-medium"> Merit</p>
+              <p className="text-gray-300 font-medium font-[family-name:var(--font-poppinsmd)]"> Merit</p>
           </div>
         </div>
       </div>
